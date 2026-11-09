@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".25"/><stop offset=".35" stop-color="#fff" stop-opacity=".18"/><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient></defs>
+<rect x="40" y="70" width="220" height="320" rx="36" fill="#b5330b"/><rect x="38" y="140" width="224" height="200" fill="#D4156B"/><rect x="38" y="140" width="224" height="26" fill="#FFF1DC"/><rect x="38" y="316" width="224" height="24" fill="#FFF1DC"/>
+<text x="150" y="250" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="58" fill="#FFC21A">TIKKA</text><rect x="70" y="262" width="160" height="34" fill="#E8500A"/><text x="150" y="288" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="26" fill="#FFF1DC">MASALA</text>
+<rect x="56" y="18" width="188" height="64" rx="10" fill="#111"/><rect x="56" y="62" width="188" height="20" fill="#C8102E"/><rect x="56" y="58" width="188" height="4" fill="#E7B547"/>
+<rect x="40" y="70" width="220" height="320" rx="36" fill="url(#g)"/></svg>
