@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghar &amp; Garam — Bold Flavor Tikka Masala</title>
+  <meta name="description" content="Ghar & Garam: small-batch Indian simmer sauces, slow-cooked from family recipes. Meet our Tikka Masala — real ingredients, no fillers, no shortcuts." />
+  <meta name="theme-color" content="#E8500A" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- intro curtain -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__brand">GHAR &amp; GARAM</div>
+    <div class="loader__count"><span class="loader__num">0</span><span>%</span></div>
+    <div class="loader__bar"><i></i></div>
+  </div>
+
+  <!-- global layers -->
+  <div class="page-bg" aria-hidden="true"><div class="page-tex"></div></div>
+  <canvas class="jar-canvas" aria-hidden="true"></canvas>
+  <img class="jar-fallback" src="/art/jar-fallback.svg" alt="" aria-hidden="true" />
+  <div class="cursor is-hidden" aria-hidden="true"><div class="cursor__ring"><span class="cursor__label"></span></div><div class="cursor__dot"></div></div>
+
+  <header class="nav">
+    <a href="#hero" class="nav__logo" data-cursor aria-label="Ghar & Garam home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><use href="#seal" /></svg>
+      <span>GHAR<em>&amp;</em>GARAM</span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#perspective" class="pill">The Jar</a>
+      <a href="#fillers" class="pill">Our Kitchen</a>
+      <a href="#collage" class="pill">Spices</a>
+    </nav>
+    <a href="#cta" class="pill pill--solid nav__cart" data-magnetic>Shop <span class="nav__count">0</span></a>
+  </header>
+
+  <main>
+    <!-- 01 HERO -->
+    <section id="hero" class="hero">
+      <p class="hero__sub split-chars">TIKKA MASALA</p>
+      <h1 class="hero__title" aria-label="Bold Flavor">
+        <span class="hero__line split-chars">BOLD</span>
+        <span class="hero__line split-chars">FLAVOR</span>
+      </h1>
+      <div class="hero__foot front">
+        <p class="hero__copy">Small-batch simmer sauce, slow-cooked with whole spices, vine tomatoes and a grandmother’s stubbornness.</p>
+        <a href="#cta" class="btn btn--cream" data-magnetic data-cursor-label="Taste">Shop the jar <span class="btn__arrow">→</span></a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" /></defs>
+          <text><textPath href="#circ">SCROLL TO UNWRAP ✦ SCROLL TO UNWRAP ✦ </textPath></text></svg>
+        <span>↓</span>
+      </div>
+      <ul class="hero__meta" aria-label="Product facts">
+        <li>350 g</li><li>Medium heat</li><li>Vegetarian</li>
+      </ul>
+    </section>
+
+    <!-- 02 A NEW ADVENTURE -->
+    <section id="adventure" class="adv">
+      <p class="eyebrow adv__eyebrow"><span>( 02 )</span> A new adventure</p>
+      <h2 class="adv__title" aria-label="Unwrap the adventure">
+        <span class="adv__line adv__line--l split-chars">UNWRAP THE</span>
+        <span class="adv__line adv__line--r split-chars">ADVENTURE</span>
+      </h2>
+      <p class="adv__copy split-words">Twist the lid and the kitchen smells like a Bengaluru street at dusk: charred tomato, toasted cumin, a slow wave of Kashmiri chilli.</p>
+    </section>
+
+    <!-- 03 A NEW PERSPECTIVE -->
+    <section id="perspective" class="persp">
+      <p class="eyebrow persp__eyebrow"><span>( 03 )</span> The jar, isolated</p>
+      <div class="persp__marquee" aria-hidden="true"><span>A NEW PERSPECTIVE ON TASTE <i class="persp__dot"></i> A NEW PERSPECTIVE ON TASTE</span></div>
+      <h2 class="sr-only">A new perspective on taste</h2>
+      <ul class="persp__notes">
+        <li><b>01</b> Gold-foil seal, hand-applied</li>
+        <li><b>02</b> Recyclable glass, 350 g</li>
+        <li><b>03</b> Lid that pops like a promise</li>
+      </ul>
+    </section>
+
+    <!-- 04 NO FILLERS -->
+    <section id="fillers" class="fillers">
+      <div class="fillers__left">
+        <p class="eyebrow"><span>( 04 )</span> What we leave out</p>
+        <h2 class="fillers__title"><span class="split-chars">NO FILLERS.</span><span class="split-chars">NO SHORTCUTS.</span></h2>
+        <ol class="fillers__list">
+          <li><b>01</b><div><h3>Real ingredients</h3><p>Whole spices, ripe tomatoes, real cream. Nothing you can’t pronounce.</p></div></li>
+          <li><b>02</b><div><h3>Family recipes</h3><p>Three generations of Amma’s notebook, still bossing us around.</p></div></li>
+          <li><b>03</b><div><h3>Zero preservatives</h3><p>Hot-filled glass and patience do all the work.</p></div></li>
+        </ol>
+      </div>
+      <div class="fillers__panel">
+        <div class="fillers__pattern"></div>
+        <figure class="fillers__photo">
+          <img src="/art/hands.svg" alt="Hands stirring tikka masala in a black kadai" width="900" height="1200" loading="lazy" decoding="async" />
+          <figcaption>Amma’s kadai, Sunday 6 am</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 05 TRADITION & CREATION -->
+    <section id="tradition" class="trad">
+      <div class="trad__text">
+        <p class="eyebrow"><span>( 05 )</span> Since 1987</p>
+        <h2 class="trad__title"><span class="split-chars">TRADITION</span><span class="split-chars">&amp; CREATION</span></h2>
+        <p class="trad__copy split-words">We toast every spice in the same iron pans our family has used for decades — then we break the rules. Smoked fenugreek, a whisper of jaggery, a finish of fresh ginger. Old soul, new tricks.</p>
+      </div>
+      <figure class="trad__photo reveal">
+        <img src="/art/curry.svg" alt="A bowl of tikka masala with naan and rice, seen from above" width="1200" height="900" loading="lazy" decoding="async" />
+      </figure>
+    </section>
+
+    <section id="grow" class="grow">
+      <figure class="grow__photo">
+        <img src="/art/thali.svg" alt="A thali of curry and rice served on a banana leaf" width="800" height="1200" loading="lazy" decoding="async" />
+      </figure>
+      <h2 class="grow__title" aria-label="Made the slow way"><span class="split-chars">MADE THE</span><span class="split-chars">SLOW WAY</span></h2>
+    </section>
+
+    <!-- 06 COLLAGE -->
+    <section id="collage" class="collage">
+      <header class="collage__head">
+        <p class="eyebrow"><span>( 06 )</span> The spice cabinet</p>
+        <h2 class="collage__title"><span class="split-chars">14 SPICES.</span><span class="split-chars">ONE JAR.</span></h2>
+      </header>
+      <div class="collage__grid">
+        <figure class="tile t1" data-speed="0.18"><img src="/art/spice-turmeric.svg" alt="Turmeric powder in a ceramic bowl" width="800" height="800" loading="lazy" decoding="async" /></figure>
+        <figure class="tile t2" data-speed="-0.12"><img src="/art/spice-chili.svg" alt="Dried Kashmiri chillies" width="800" height="1000" loading="lazy" decoding="async" /></figure>
+        <figure class="tile t3" data-speed="0.3"><img src="/art/produce.svg" alt="Tomatoes, red onion and garlic" width="1000" height="800" loading="lazy" decoding="async" /></figure>
+        <figure class="tile t4" data-speed="-0.22"><img src="/art/spice-anise.svg" alt="Star anise, cinnamon and green cardamom" width="800" height="800" loading="lazy" decoding="async" /></figure>
+        <figure class="tile t5" data-speed="0.1"><img src="/art/naan.svg" alt="Charred garlic naan" width="800" height="1000" loading="lazy" decoding="async" /></figure>
+        <figure class="tile t6" data-speed="-0.3"><img src="/art/spice-cumin.svg" alt="Cumin seeds in a wooden spoon" width="800" height="1000" loading="lazy" decoding="async" /></figure>
+        <img class="mini-jar mj1" alt="" aria-hidden="true" data-from="-1" />
+        <img class="mini-jar mj2" alt="" aria-hidden="true" data-from="1" />
+        <img class="mini-jar mj3" alt="" aria-hidden="true" data-from="-1" />
+        <span class="sticker" aria-hidden="true">HOT<br />STUFF</span>
+      </div>
+    </section>
+
+    <!-- 07 CTA -->
+    <section id="cta" class="cta">
+      <p class="pill pill--outline cta__eyebrow">The jar — £6.50</p>
+      <h2 class="cta__title" aria-label="Let’s get cooking">
+        <span class="cta__line split-chars">LET’S GET</span>
+        <span class="cta__line cta__line--front split-chars">COOKING</span>
+      </h2>
+      <div class="cta__actions front">
+        <a href="#footer" class="btn btn--big" data-magnetic data-cursor-label="Yum">Shop now <span class="btn__arrow">→</span></a>
+        <p>Free UK delivery over £25 · Ships in recyclable everything</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 08 FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="footer__split">
+      <div class="footer__news front">
+        <p class="eyebrow"><span>( 08 )</span> Newsletter</p>
+        <h2 class="footer__title split-chars">STAY SAUCY</h2>
+        <p class="footer__lead">Flavor-packed updates straight into your inbox + <strong>10% off your first jar</strong>.</p>
+        <form class="news" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@kitchen.com" autocomplete="email" required />
+          <button type="submit" class="btn btn--magenta" data-magnetic data-cursor-label="Join">Get 10% off</button>
+        </form>
+        <p class="news__msg" role="status" aria-live="polite"></p>
+      </div>
+      <div class="footer__magenta">
+        <div class="footer__pattern"></div>
+        <div class="footer__jar" aria-hidden="true"></div>
+        <div class="footer__badge" aria-hidden="true">
+          <svg viewBox="0 0 120 120"><defs><path id="circ2" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" /></defs>
+            <text><textPath href="#circ2">10% OFF ✦ FIRST JAR ✦ 10% OFF ✦ FIRST JAR ✦ </textPath></text></svg>
+          <b>10%</b>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar front">
+      <nav aria-label="Footer"><a href="#hero">Top</a><a href="#perspective">The Jar</a><a href="#fillers">Kitchen</a><a href="#collage">Spices</a></nav>
+      <p>© 2026 Ghar &amp; Garam — a fictional brand. Illustrations generated in code.</p>
+    </div>
+    <div class="footer__mark" aria-hidden="true">GHAR&amp;GARAM</div>
+  </footer>
+
+  <!-- shared symbol: the G&G seal -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="seal" viewBox="0 0 64 64">
+      <path d="M32 2l4.2 5.4 6.5-2.1 1.9 6.6 6.8.3-.6 6.8 6.1 3.1-3 6.1 4.4 5.2-5.2 4.4 3 6.1-6.1 3.1.6 6.8-6.8.3-1.9 6.6-6.5-2.1L32 62l-4.2-5.4-6.5 2.1-1.9-6.6-6.8-.3.6-6.8-6.1-3.1 3-6.1L1.7 30.6l5.2-4.4-3-6.1 6.1-3.1-.6-6.8 6.8-.3 1.9-6.6 6.5 2.1z" fill="currentColor" />
+      <text x="32" y="38.5" text-anchor="middle" font-family="Anton, Impact, sans-serif" font-size="17" fill="var(--seal-ink, #1A0E08)">G&amp;G</text>
+    </symbol>
+  </svg>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
